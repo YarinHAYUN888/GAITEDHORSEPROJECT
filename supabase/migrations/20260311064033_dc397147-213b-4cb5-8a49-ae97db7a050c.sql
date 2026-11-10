@@ -1,0 +1,1 @@
+ALTER TABLE public.horses ADD COLUMN IF NOT EXISTS cover_photo_url text DEFAULT NULL;

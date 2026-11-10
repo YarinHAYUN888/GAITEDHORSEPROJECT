@@ -1,0 +1,1 @@
+ALTER TABLE public.gait_analyses ADD COLUMN analysis_mode TEXT DEFAULT 'both';

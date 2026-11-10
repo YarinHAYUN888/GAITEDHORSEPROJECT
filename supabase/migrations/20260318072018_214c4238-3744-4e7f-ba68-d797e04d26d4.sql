@@ -1,0 +1,1 @@
+ALTER TABLE public.horses ADD COLUMN breeding_date date NULL;

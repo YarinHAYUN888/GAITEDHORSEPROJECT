@@ -1,0 +1,70 @@
+project_id = "xydojvnfzrnaglecwnbn"
+
+[functions.gait-analysis]
+verify_jwt = false
+
+[functions.expert-analysis]
+verify_jwt = false
+
+[functions.generate-report]
+verify_jwt = false
+
+[functions.genetics-chat]
+verify_jwt = false
+
+[functions.pedigree-chat]
+verify_jwt = false
+
+[functions.gait-metronome]
+verify_jwt = false
+
+[functions.predictive-training]
+verify_jwt = false
+
+[functions.detect-horse-keypoints]
+verify_jwt = false
+
+[functions.analyze-gait-audio-advanced]
+verify_jwt = false
+
+[functions.calculate-advanced-metrics]
+verify_jwt = false
+
+[functions.merge-multimodal-data]
+verify_jwt = false
+
+[functions.detect-equine-conditions]
+verify_jwt = false
+
+[functions.system-self-check]
+verify_jwt = false
+
+[functions.send-analysis-report]
+verify_jwt = false
+
+[functions.select-analysis-windows]
+verify_jwt = false
+
+[functions.classify-consistency-check]
+verify_jwt = false
+
+[functions.label-feedback]
+verify_jwt = false
+
+[functions.submit-feedback]
+verify_jwt = false
+
+[functions.horse-coach-chat]
+verify_jwt = false
+
+[functions.auto-triage]
+verify_jwt = false
+
+[functions.vet-report]
+verify_jwt = false
+
+[functions.cross-horse-benchmark]
+verify_jwt = false
+
+[functions.injury-prediction]
+verify_jwt = false

@@ -1,0 +1,9 @@
+{
+  "appId": "app.lovable.11cd94bd5be0413dbca2d17a41af9df9",
+  "appName": "סוסי צעד AI",
+  "webDir": "dist",
+  "server": {
+    "url": "https://11cd94bd-5be0-413d-bca2-d17a41af9df9.lovableproject.com?forceHideBadge=true",
+    "cleartext": true
+  }
+}

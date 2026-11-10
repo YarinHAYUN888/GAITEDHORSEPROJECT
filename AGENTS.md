@@ -1,0 +1,17 @@
+# Architecture rules
+- Keep system administration at an admin-gated workspace backed by server-authorized, audited mutations; UI role checks are navigation only and never authorization.
+- Site-wide content uses persisted app settings and global media mutations require admin storage policies; source editing and deployment remain outside the app.
+- Keep owner-flow prototypes isolated from application data, authentication mutations and credits so user testing cannot modify real records.
+- Regression and validation suites must call the production classifier rather than copy scoring rules, so tests detect actual regressions.
+- Display validation coverage separately from model confidence; never use static accuracy percentages as a fallback for missing validation data.
+- Keep owner reference reviews and unannotated media manifests in docs/research, outside production accuracy fixtures, so media observations cannot silently become ground truth.
+- Keep owner evidence summaries attached to persisted analysis results and label sparse AI pose outputs as estimates, because sampled keyframes cannot establish continuous hoof-contact measurements.
+- Carry horse selection through owner analysis links and filter caches by horse context, because cached results must not silently attach to a different horse.
+- Validate required gait-result shapes at service, cache and display boundaries; normalize narratives without changing valid scores and preserve unavailable values, because malformed fresh/saved responses must not crash views or invent measurements.
+- Bound analysis persistence and return a save failure separately from the completed result, because storage/network errors must not erase successful analysis output.
+- Keep automatic source selection and its conservative audio-quality gate shared between analysis endpoints; acoustic summaries cannot establish hoof-strike identity or visual biomechanics.
+- Use an FFT library for spectral analysis and cancellable bounded frame extraction, because quadratic frequency loops and stalled seeks can block the owner scan.
+- Keep pregnancy records and examinations owner-scoped through horse ownership; use date-derived educational milestones, not inferred fetal findings, so calendar progress cannot masquerade as veterinary confirmation.
+- Pregnancy reminders are derived in-app and exportable as calendar events; do not claim background delivery without configured push infrastructure.
+- Keep equine reproductive guidance source-linked in a versioned data module and research review; generated illustrations are non-diagnostic and not anatomically validated.
+- Stage public multi-user rollout behind verified owner/horse isolation, explicit revocable research-consent eligibility and horse-separated expert evaluation; uploaded videos and AI predictions must not automatically become training ground truth.

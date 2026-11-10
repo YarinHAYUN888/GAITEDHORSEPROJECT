@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792992291657,
+      "tag": "0000_mare_pregnancy_tracking",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793271574335,
+      "tag": "0001_admin_workspace_settings_and_media_security",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793271599836,
+      "tag": "0002_audited_admin_invites_and_credits",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793271820191,
+      "tag": "0003_audit_site_media_and_validate_content",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793271835692,
+      "tag": "0004_keep_media_audit_in_public_schema",
+      "breakpoints": true
+    }
+  ]
+}
